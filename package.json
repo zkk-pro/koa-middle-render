@@ -4,18 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node run app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "art-template": "^4.13.1",
-    "axios": "^0.18.0",
     "koa": "^2.5.3",
     "koa-art-template": "^1.1.1",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
-    "request": "^2.88.0"
+    "mongoose": "^5.3.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   }
 }

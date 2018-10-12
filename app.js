@@ -1,6 +1,6 @@
 
 const Koa = require('koa')
-const router = require('./routes/router.config.js')
+const router = require('./routes/init_router.js')
 const render = require('koa-art-template')
 const static = require('koa-static')
 const path = require('path')

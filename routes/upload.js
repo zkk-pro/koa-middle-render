@@ -1,9 +1,8 @@
 // 文件上传路由
 
 const router = require('koa-router')()
+const { upload } = require('../controllers/upload')
 
-router.get('/upload', async (ctx, next) => {
-  ctx.body = 123
-})
+router.get('/upload', upload)
 
 module.exports = router
