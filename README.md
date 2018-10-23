@@ -26,7 +26,7 @@
 ### 运行
 
 ```
-git clone it@github.com:mynsy/koa-middle-render.git
+git clone git@github.com:mynsy/koa-middle-render.git
 npm install
 npm run dev
 ```
